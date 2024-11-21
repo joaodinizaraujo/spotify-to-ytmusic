@@ -84,7 +84,7 @@ for music in musics:
     i += 1
     print(f"{i}/{len(musics)}")
 
-chunk_size = 10
+chunk_size = 50
 for chunk in chunk_list(video_ids, chunk_size):
     try:
         print(f"Adding {len(chunk)} songs to the playlist...")
